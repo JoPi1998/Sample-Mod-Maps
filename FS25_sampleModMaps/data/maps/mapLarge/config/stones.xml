@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/stones.xsd">
+	<stones title="$l10n_fillType_stone">
+		<mapColors>
+			<!-- <mapColor states="1" default="0.2647 0.1038 0.358 1" colorBlind="0.2647 0.1038 0.358 1" /> -->
+		</mapColors>
+	</stones>
+</map>

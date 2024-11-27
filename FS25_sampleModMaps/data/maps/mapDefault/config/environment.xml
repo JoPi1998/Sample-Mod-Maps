@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<environment>
+	<parentFile xmlFilename="$data/maps/mapUS/config/environment.xml">
+		<attributes>
+			<set path="environment.map#filename" value="data/maps/mapDefault/data/infoLayer_environment.png" />
+		</attributes>
+	</parentFile>
+</environment>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+	<texts>
+		<text name="collectible_mapDefault_all" text="Abgeschlossen" />
+		<text name="collectible_mapDefault_intro" text="Einleitung" />
+		<text name="collectible_mapLarge_all" text="Abgeschlossen" />
+		<text name="collectible_mapLarge_intro" text="Einleitung" />
+		<text name="mapDefault_description" text="Beschreibung" />
+		<text name="mapDefault_title" text="Beispielkarte" />
+		<text name="mapLarge_description" text="Beschreibung" />
+		<text name="mapLarge_title" text="Große Beispielkarte" />
+	</texts>
+</l10n>

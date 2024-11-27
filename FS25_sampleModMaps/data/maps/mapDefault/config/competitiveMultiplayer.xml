@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<competitiveMultiplayer>
+	<farms>
+		<farm farmId="1" name="Start Farm" color="1" money="10000000" loan="0" />
+	</farms>
+</competitiveMultiplayer>

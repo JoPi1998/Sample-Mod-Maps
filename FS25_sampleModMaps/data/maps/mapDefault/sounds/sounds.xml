@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<sound xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/ambientSounds.xsd">
+	<parentFile xmlFilename="$data/maps/mapUS/sounds/sounds.xml">
+		<attributes>
+			<set path="sound.ambient3d#filename" value="data/maps/mapDefault/sounds/sounds.i3d" />
+		</attributes>
+	</parentFile>
+</sound>

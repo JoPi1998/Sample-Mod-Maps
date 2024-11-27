@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/fields.xsd">
+	<fields>
+		<field fieldId="1" limeLevel="3" plowLevel="1" stubbleShredLevel="1" rollerLevel="0" weedState="0" stoneLevel="0">
+			<fruit type="UNKNOWN" growthState="INVISIBLE" />
+			<ground type="PLOWED" angle="0" />
+			<spray type="NONE" level="2" />
+		</field>
+	</fields>
+</map>

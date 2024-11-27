@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map width="2048" height="2048" imageFilename="data/maps/mapDefault/textures/ui/overview.png" mapFieldColor="0.15 0.1195 0.0953" mapGrassFieldColor="0.147 0.1441 0.0823" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/mission00.xsd">
+	<filename>data/maps/mapDefault/mapDefault.i3d</filename>
+	<vertexBufferMemoryUsage>0</vertexBufferMemoryUsage>
+	<indexBufferMemoryUsage>0</indexBufferMemoryUsage>
+	<textureMemoryUsage>0</textureMemoryUsage>
+	<culling xzOffset="100" />
+	<densityMap revision="1" />
+	<terrainTexture revision="1" />
+	<terrainLodTexture revision="1" />
+	<splitShapes revision="1" />
+	<tipCollision revision="1" />
+	<placementCollision revision="1" />
+	<navigationCollision revision="1" />
+	<shop filename="data/store/ui/shop.xml" />
+	<storeItems filename="data/maps/mapDefault/config/storeItems.xml" />
+	<licensePlates filename="data/maps/mapDefault/licensePlates/licensePlatesUS.xml" />
+	<gameplayHints filename="$dataS/gameplayHints.xml" />
+	<helpline filename="$dataS/helpLine.xml" />
+	<sounds filename="data/maps/mapDefault/sounds/sounds.xml" />
+	<environment filename="data/maps/mapDefault/config/environment.xml" />
+	<competitiveMultiplayer filename="data/maps/mapDefault/config/competitiveMultiplayer.xml" />
+	<farmlands filename="data/maps/mapDefault/config/farmlands.xml" />
+	<fields filename="data/maps/mapDefault/config/fields.xml" />
+	<fieldGround filename="data/maps/mapDefault/config/fieldGround.xml" />
+	<weed filename="data/maps/mapDefault/config/weed.xml" />
+	<stones filename="data/maps/mapDefault/config/stones.xml" />
+	<aiSystem filename="data/maps/mapDefault/config/aiSystem.xml" />
+	<npcs filename="data/maps/mapDefault/config/npcs.xml" />
+	<helpers filename="data/maps/mapDefault/config/helpers.xml" />
+	<animals filename="dataS/character/animals.xml">
+		<names filename="dataS/character/animalNames.xml" />
+		<food filename="dataS/character/animalFood.xml" />
+	</animals>
+	<wildlife filename="data/animals/wildlife/wildlife.xml" />
+	<collectibles filename="data/maps/mapDefault/config/collectibles.xml" />
+	<missions vehicleFilename="dataS/missionVehicles.xml">
+		<deadwoodMission treeType="DEADWOOD">
+			<spots filename="data/maps/mapDefault/missions/deadwoodSpots.i3d" />
+		</deadwoodMission>
+		<treeTransportMission treeType="TRANSPORT">
+			<spots filename="data/maps/mapDefault/missions/transportSpots.i3d" />
+		</treeTransportMission>
+		<destructibleRockMission>
+			<spots filename="data/maps/mapDefault/missions/destructibleRocksSpots.i3d" />
+			<marker filename="$data/shared/assets/marker/rockMissionFlag.i3d" />
+		</destructibleRockMission>
+	</missions>
+	<fillTypes filename="data/maps/mapDefault/config/fillTypes.xml" />
+	<fruitTypes>
+		<fruitType filename="$data/foliage/meadow/meadowUS/meadowUS.xml" />
+	</fruitTypes>
+	<fruitTypeCategories>
+		<fruitTypeCategory name="DIRECTCUTTER">MEADOW</fruitTypeCategory>
+		<fruitTypeCategory name="MOWER">MEADOW</fruitTypeCategory>
+	</fruitTypeCategories>
+	<fruitTypeConverters>
+		<fruitTypeConverter name="FORAGEHARVESTER">
+			<converter from="MEADOW" to="GRASS_WINDROW" factor="1" />
+		</fruitTypeConverter>
+		<fruitTypeConverter name="MOWER">
+			<converter from="MEADOW" to="GRASS_WINDROW" factor="1" />
+		</fruitTypeConverter>
+	</fruitTypeConverters>
+	<densityMapHeightTypes filename="data/maps/mapDefault/config/densityMapHeightTypes.xml" />
+	<sprayTypes filename="data/maps/mapDefault/config/sprayTypes.xml" />
+	<bales filename="data/maps/mapDefault/config/bales.xml" />
+	<treeTypes filename="data/maps/mapDefault/config/treeTypes.xml" maxNumTrees="10000" />
+	<additionalFiles>
+		<additionalFile filename="$data/shared/materialHolders/tensionBelts/tensionBeltMaterialHolder.i3d" />
+		<additionalFile filename="$data/shared/materialHolders/tireTrackMaterialHolder.i3d" />
+		<additionalFile filename="$data/shared/materialHolders/waterSimulationMaterialHolder.i3d" />
+		<additionalFile filename="$data/fillPlanes/fillPlane_materialHolder.i3d" />
+		<additionalFile filename="$data/objects/bales/wrapBale_materialHolder.i3d" />
+		<additionalFile filename="$data/effects/effects.xml" />
+	</additionalFiles>
+	<motionPathEffects filename="$data/effects/motionPathEffects.xml" />
+	<decoFoliages>
+		<decoFoliage layerName="decoBush" startChannel="0" numChannels="4" />
+		<decoFoliage layerName="decoBushUS" startChannel="0" numChannels="4" />
+		<decoFoliage layerName="decoBushEU" startChannel="0" numChannels="4" />
+		<decoFoliage layerName="decoFoliage" startChannel="0" numChannels="4" mowable="true" />
+		<decoFoliage layerName="forestPlants" startChannel="0" numChannels="4" mowable="true" />
+		<decoFoliage layerName="groundFoliage" startChannel="0" numChannels="4" mowable="true" />
+		<decoFoliage layerName="waterPlants" startChannel="0" numChannels="4" mowable="true" />
+		<mapping name="grassShort" layerName="decoFoliage" state="9" />
+	</decoFoliages>
+	<paintableFoliages>
+		<paintableFoliage layerName="terrainDetail" startChannel="0" numChannels="11" />
+		<paintableFoliage layerName="meadow" startChannel="0" numChannels="4" />
+		<paintableFoliage layerName="grass" startChannel="0" numChannels="4" />
+		<paintableFoliage layerName="decoBush" startChannel="0" numChannels="4" />
+		<paintableFoliage layerName="decoBushUS" startChannel="0" numChannels="4" />
+		<paintableFoliage layerName="decoBushEU" startChannel="0" numChannels="4" />
+		<paintableFoliage layerName="decoFoliage" startChannel="0" numChannels="4" />
+		<paintableFoliage layerName="forestPlants" startChannel="0" numChannels="4" />
+		<paintableFoliage layerName="groundFoliage" startChannel="0" numChannels="4" />
+		<paintableFoliage layerName="waterPlants" startChannel="0" numChannels="4" />
+		<paintableFoliage layerName="stone" startChannel="0" numChannels="3" />
+	</paintableFoliages>
+	<groundTypeMappings>
+		<groundTypeMapping type="dirt" title="$l10n_groundType_dirt" layer="MUD_LIGHT" />
+		<groundTypeMapping type="asphalt" title="$l10n_groundType_asphalt" layer="ASPHALT" />
+		<groundTypeMapping type="gravel" title="$l10n_groundType_gravel" layer="GRAVEL_SMALL" />
+		<groundTypeMapping type="grass" title="$l10n_groundType_grass" layer="GRASS" />
+		<groundTypeMapping type="sand" title="$l10n_groundType_sand" layer="SAND" />
+		<groundTypeMapping type="animalMud" title="$l10n_groundType_animalMud" layer="MUD_TRACKS" />
+		<groundTypeMapping type="concrete" title="$l10n_groundType_concrete" layer="CONCRETE" />
+		<groundTypeMapping type="plates" title="$l10n_groundType_plates" layer="CONCRETE_SHATTERED" />
+		<groundTypeMapping type="cobblestones" title="$l10n_groundType_cobblestones" layer="ROCK_FLOOR_TILES" />
+		<groundTypeMapping type="flagstones" title="$l10n_groundType_flagstones" layer="ROCK_FLOOR_TILES_PATTERN" />
+		<groundTypeMapping type="forestGround" title="$l10n_groundType_forestGround" layer="FOREST_GRASS" />
+		<groundTypeMapping type="rock" title="$l10n_groundType_rock" layer="ROCK" />
+	</groundTypeMappings>
+</map>

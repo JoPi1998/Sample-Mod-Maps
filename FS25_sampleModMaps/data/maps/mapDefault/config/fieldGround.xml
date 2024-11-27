@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<fieldGround>
+	<parentFile xmlFilename="$data/maps/mapUS/config/fieldGround.xml">
+		<attributes>
+			<set path="fieldGround.densityMaps.sprayLevel#filename" value="data/maps/mapDefault/data/infoLayer_sprayLevel.png" />
+			<set path="fieldGround.densityMaps.limeLevel#filename" value="data/maps/mapDefault/data/infoLayer_limeLevel.png" />
+			<set path="fieldGround.densityMaps.plowLevel#filename" value="data/maps/mapDefault/data/infoLayer_plowLevel.png" />
+			<set path="fieldGround.densityMaps.stubbleShredLevel#filename" value="data/maps/mapDefault/data/infoLayer_stubbleShredLevel.png" />
+			<set path="fieldGround.densityMaps.rollerLevel#filename" value="data/maps/mapDefault/data/infoLayer_rollerLevel.png" />
+			<set path="fieldGround.densityMaps.fieldType#filename" value="data/maps/mapDefault/data/infoLayer_fieldType.png" />
+		</attributes>
+	</parentFile>
+</fieldGround>

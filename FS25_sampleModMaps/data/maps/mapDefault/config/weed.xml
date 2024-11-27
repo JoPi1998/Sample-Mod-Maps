@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/weed.xsd">
+	<parentFile xmlFilename="$data/maps/mapUS/config/weed.xml">
+		<attributes>
+			<set path="map.weed.infoLayer#filename" value="data/maps/mapDefault/data/infoLayer_weed.png" />
+		</attributes>
+	</parentFile>
+</map>

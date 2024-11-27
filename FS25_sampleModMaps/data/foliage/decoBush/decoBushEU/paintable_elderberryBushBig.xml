@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="bush" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/placeable.xsd">
+	<parentFile xmlFilename="$data/foliage/decoBush/decoBushEU/paintable_elderberryBushBig.xml">
+		<attributes>
+			<set path="placeable.storeData.brush.parameters.parameter(0)" value="decoBushEU" />
+			<set path="placeable.storeData.storeIconRendering.objectBundle.object(0)#filename" value="$data/foliage/decoBush/decoBushEU/bushes.i3d" />
+			<set path="placeable.base.filename" value="$data/foliage/decoBush/decoBushEU/bushes.i3d" />
+		</attributes>
+	</parentFile>
+	<storeData>
+		<species>PLACEABLE</species>
+	</storeData>
+</placeable>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<licensePlates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/mapLicensePlates.xsd">
+	<parentFile xmlFilename="$data/maps/mapUS/licensePlates/licensePlatesUS.xml" />
+</licensePlates>

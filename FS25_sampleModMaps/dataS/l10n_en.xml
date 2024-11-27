@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+	<texts>
+		<text name="collectible_mapDefault_all" text="Finished" />
+		<text name="collectible_mapDefault_intro" text="Intro" />
+		<text name="collectible_mapLarge_all" text="Finished" />
+		<text name="collectible_mapLarge_intro" text="Intro" />
+		<text name="mapDefault_description" text="Description" />
+		<text name="mapDefault_title" text="Sample Mod Map" />
+		<text name="mapLarge_description" text="Description" />
+		<text name="mapLarge_title" text="Large Sample Mod Map" />
+	</texts>
+</l10n>

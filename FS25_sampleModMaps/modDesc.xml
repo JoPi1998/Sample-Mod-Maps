@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="92" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/modDesc.xsd">
+	<author>JoPi</author>
+	<version>1.0.0.0</version>
+	<title>
+		<en>Sample Mod Maps</en>
+		<de>Beispielkarten</de>
+	</title>
+	<description>
+		<en>
+<![CDATA[Default map and large map]]>
+		</en>
+		<de>
+<![CDATA[Standardkarte und große Karte]]>
+		</de>
+	</description>
+	<iconFilename>icon_sampleModMaps.png</iconFilename>
+	<multiplayer supported="true" />
+	<l10n filenamePrefix="dataS/l10n" />
+	<maps>
+		<map id="MapDefault" className="Mission00" filename="$dataS/scripts/mission00.lua" configFilename="data/maps/mapDefault/mapDefault.xml" defaultVehiclesXMLFilename="data/maps/mapDefault/config/vehicles.xml" defaultPlaceablesXMLFilename="data/maps/mapDefault/config/placeables.xml" defaultItemsXMLFilename="data/maps/mapDefault/config/items.xml" defaultHandToolsXMLFilename="data/maps/mapDefault/config/handTools.xml">
+			<title>$l10n_mapDefault_title</title>
+			<description>$l10n_mapDefault_description</description>
+			<iconFilename>data/maps/mapDefault/textures/ui/preview.png</iconFilename>
+		</map>
+		<map id="MapLarge" className="Mission00" filename="$dataS/scripts/mission00.lua" configFilename="data/maps/mapLarge/mapLarge.xml" defaultVehiclesXMLFilename="data/maps/mapLarge/config/vehicles.xml" defaultPlaceablesXMLFilename="data/maps/mapLarge/config/placeables.xml" defaultItemsXMLFilename="data/maps/mapLarge/config/items.xml" defaultHandToolsXMLFilename="data/maps/mapLarge/config/handTools.xml">
+			<title>$l10n_mapLarge_title</title>
+			<description>$l10n_mapLarge_description</description>
+			<iconFilename>data/maps/mapLarge/textures/ui/preview.png</iconFilename>
+		</map>
+	</maps>
+	<dependencies>
+		<!-- <dependency>FS25_requiredMod</dependency> -->
+	</dependencies>
+</modDesc>

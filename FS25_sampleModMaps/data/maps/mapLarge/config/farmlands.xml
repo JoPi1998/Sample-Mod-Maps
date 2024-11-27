@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/farmlands.xsd">
+	<farmlands infoLayer="farmlands" pricePerHa="60000">
+		<farmland id="1" priceScale="1" npcName="GRANDPA" defaultFarmProperty="true" />
+	</farmlands>
+</map>
