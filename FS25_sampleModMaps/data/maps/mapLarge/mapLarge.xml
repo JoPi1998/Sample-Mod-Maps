@@ -58,9 +58,6 @@
 		<fruitTypeConverter name="FORAGEHARVESTER">
 			<converter from="MEADOW" to="GRASS_WINDROW" factor="1" />
 		</fruitTypeConverter>
-		<fruitTypeConverter name="MOWER">
-			<converter from="MEADOW" to="GRASS_WINDROW" factor="1" />
-		</fruitTypeConverter>
 	</fruitTypeConverters>
 	<densityMapHeightTypes filename="data/maps/mapLarge/config/densityMapHeightTypes.xml" />
 	<sprayTypes filename="data/maps/mapLarge/config/sprayTypes.xml" />
