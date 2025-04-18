@@ -8,10 +8,20 @@
 	</title>
 	<description>
 		<en>
-<![CDATA[Default map and large map]]>
+<![CDATA[Description: (A brief description of the map, including location, environment, and key features or notable places.)
+Number of purchasable fields:
+Average acre size:
+Number of purchasable forestry land:
+Water retrieval sources (e.g., lakes, rivers, watertanks)
+Seasonal growth plan (If changes were made compared to the default experience)]]>
 		</en>
 		<de>
-<![CDATA[Standardkarte und große Karte]]>
+<![CDATA[Beschreibung: (Eine kurze Beschreibung der Karte, einschließlich Lage, Umgebung und wichtiger Merkmale oder bemerkenswerter Orte.)
+Anzahl der kaufbaren Felder:
+Durchschnittliche Hektargröße:
+Anzahl der kaufbaren Waldflächen:
+Wasserentnahmestellen (z.B. Seen, Flüsse, Wassertanks)
+Saisonaler Wachstumsplan (Falls Änderungen im Vergleich zur Standarderfahrung vorgenommen wurden)]]>
 		</de>
 	</description>
 	<iconFilename>icon_sampleModMaps.png</iconFilename>
