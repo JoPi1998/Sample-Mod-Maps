@@ -17,6 +17,10 @@
 	<iconFilename>icon_sampleModMaps.png</iconFilename>
 	<multiplayer supported="true" />
 	<l10n filenamePrefix="dataS/l10n" />
+	<extraSourceFiles>
+		<sourceFile filename="dataS/scripts/gui/base/MapOverlayGeneratorFix.lua" />
+		<sourceFile filename="dataS/scripts/vehicles/specializations/SowingMachineFix.lua" />
+	</extraSourceFiles>
 	<maps>
 		<map id="MapDefault" className="Mission00" filename="$dataS/scripts/mission00.lua" configFilename="data/maps/mapDefault/mapDefault.xml" defaultVehiclesXMLFilename="data/maps/mapDefault/config/vehicles.xml" defaultPlaceablesXMLFilename="data/maps/mapDefault/config/placeables.xml" defaultItemsXMLFilename="data/maps/mapDefault/config/items.xml" defaultHandToolsXMLFilename="data/maps/mapDefault/config/handTools.xml">
 			<title>$l10n_mapDefault_title</title>

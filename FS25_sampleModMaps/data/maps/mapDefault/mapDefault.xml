@@ -47,18 +47,7 @@
 		</destructibleRockMission>
 	</missions>
 	<fillTypes filename="data/maps/mapDefault/config/fillTypes.xml" />
-	<fruitTypes>
-		<fruitType filename="$data/foliage/meadow/meadowUS/meadowUS.xml" />
-	</fruitTypes>
-	<fruitTypeCategories>
-		<fruitTypeCategory name="DIRECTCUTTER">MEADOW</fruitTypeCategory>
-		<fruitTypeCategory name="MOWER">MEADOW</fruitTypeCategory>
-	</fruitTypeCategories>
-	<fruitTypeConverters>
-		<fruitTypeConverter name="FORAGEHARVESTER">
-			<converter from="MEADOW" to="GRASS_WINDROW" factor="1" />
-		</fruitTypeConverter>
-	</fruitTypeConverters>
+	<fruitTypes filename="data/maps/mapDefault/config/fruitTypes.xml" />
 	<densityMapHeightTypes filename="data/maps/mapDefault/config/densityMapHeightTypes.xml" />
 	<sprayTypes filename="data/maps/mapDefault/config/sprayTypes.xml" />
 	<bales filename="data/maps/mapDefault/config/bales.xml" />

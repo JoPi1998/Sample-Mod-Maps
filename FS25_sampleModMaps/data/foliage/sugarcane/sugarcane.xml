@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<foliageType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/foliageType.xsd">
+	<parentFile xmlFilename="$data/foliage/sugarcane/sugarcane.xml">
+		<attributes>
+			<set path="foliageType.fruitType#shownOnMap" value="false" />
+			<set path="foliageType.fruitType#useForFieldMissions" value="false" />
+			<set path="foliageType.fruitType.seeding#isAvailable" value="false" />
+		</attributes>
+	</parentFile>
+</foliageType>

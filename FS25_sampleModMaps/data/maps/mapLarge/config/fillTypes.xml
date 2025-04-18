@@ -4,7 +4,31 @@
 		<!-- -->
 	</fillTypeConverters>
 	<fillTypes>
-		<!-- -->
+		<fillType name="COTTON" showOnPriceTable="false" isBaleType="true">
+			<effects>
+				<alphaClip value="0.28" sharpness="0.21" gradientScale="0.19" alphaScale="0.93" beltAlphaScale="0.3" />
+			</effects>
+			<image hud="$dataS/menu/hud/fillTypes/hud_fill_cotton.png" />
+			<textures diffuse="$data/fillPlanes/cotton_diffuse.png" normal="$data/fillPlanes/cotton_normal.png" height="$data/fillPlanes/cotton_height.png" displacement="$data/fillPlanes/cotton_displacement.png" distance="$data/fillPlanes/distance/fertilizerDistance_diffuse.png" />
+		</fillType>
+		<fillType name="RICELONGGRAIN" showOnPriceTable="false" isBulkType="true">
+			<image hud="$dataS/menu/hud/fillTypes/hud_fill_riceLongGrain.png" />
+			<pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+			<textures diffuse="$data/fillPlanes/riceLongGrain_diffuse.png" normal="$data/fillPlanes/riceLongGrain_normal.png" height="$data/fillPlanes/riceLongGrain_height.png" displacement="$data/fillPlanes/riceLongGrain_displacement.png" distance="$data/fillPlanes/distance/riceLongGrainDistance_diffuse.png" />
+		</fillType>
+		<fillType name="RICE" showOnPriceTable="false" isBulkType="true">
+			<image hud="$dataS/menu/hud/fillTypes/hud_fill_rice.png" />
+			<pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+			<textures diffuse="$data/fillPlanes/rice_diffuse.png" normal="$data/fillPlanes/rice_normal.png" height="$data/fillPlanes/rice_height.png" displacement="$data/fillPlanes/rice_displacement.png" distance="$data/fillPlanes/distance/riceDistance_diffuse.png" />
+		</fillType>
+		<fillType name="SUGARCANE" showOnPriceTable="false" isBulkType="true">
+			<effects>
+				<alphaClip beltAlphaScale="0.3" />
+			</effects>
+			<image hud="$dataS/menu/hud/fillTypes/hud_fill_sugarCane.png" />
+			<pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
+			<textures diffuse="$data/fillPlanes/sugarCane_diffuse.png" normal="$data/fillPlanes/sugarCane_normal.png" height="$data/fillPlanes/sugarCane_height.png" displacement="$data/fillPlanes/sugarCane_displacement.png" distance="$data/fillPlanes/distance/sugarCaneDistance_diffuse.png" />
+		</fillType>
 	</fillTypes>
 	<fillTypeCategories>
 		<!-- -->

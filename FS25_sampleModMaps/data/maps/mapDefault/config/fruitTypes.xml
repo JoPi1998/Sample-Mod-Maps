@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/fruitTypes.xsd">
+	<fruitTypes>
+		<fruitType filename="data/foliage/rice/rice.xml" />
+		<fruitType filename="data/foliage/riceLongGrain/riceLongGrain.xml" />
+		<fruitType filename="data/foliage/sugarcane/sugarcane.xml" />
+		<fruitType filename="data/foliage/cotton/cotton.xml" />
+		<fruitType filename="$data/foliage/meadow/meadowUS/meadowUS.xml" />
+	</fruitTypes>
+	<fruitTypeCategories>
+		<fruitTypeCategory name="DIRECTCUTTER">MEADOW</fruitTypeCategory>
+		<fruitTypeCategory name="MOWER">MEADOW</fruitTypeCategory>
+	</fruitTypeCategories>
+	<fruitTypeConverters>
+		<fruitTypeConverter name="FORAGEHARVESTER">
+			<converter from="MEADOW" to="GRASS_WINDROW" factor="1" />
+		</fruitTypeConverter>
+	</fruitTypeConverters>
+</map>

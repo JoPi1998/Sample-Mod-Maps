@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/densityMapHeightTypes.xsd">
 	<densityMapHeightTypes>
-		<!-- -->
+		<densityMapHeightType fillTypeName="COTTON" canBeTipped="false" />
+		<densityMapHeightType fillTypeName="RICELONGGRAIN" canBeTipped="false" />
+		<densityMapHeightType fillTypeName="RICE" canBeTipped="false" />
+		<densityMapHeightType fillTypeName="SUGARCANE" canBeTipped="false" />
 	</densityMapHeightTypes>
 </map>
