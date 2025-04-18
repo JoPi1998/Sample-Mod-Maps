@@ -2,6 +2,9 @@
 <fieldGround>
 	<parentFile xmlFilename="$data/maps/mapUS/config/fieldGround.xml">
 		<attributes>
+			<set path="fieldGround.densityMaps.groundAngle#numChannels" value="6" />
+			<set path="fieldGround.densityMaps.sprayTypes#firstChannel" value="10" />
+			<set path="fieldGround.densityMaps.water#firstChannel" value="13" />
 			<set path="fieldGround.densityMaps.sprayLevel#filename" value="data/maps/mapDefault/data/infoLayer_sprayLevel.png" />
 			<set path="fieldGround.densityMaps.limeLevel#filename" value="data/maps/mapDefault/data/infoLayer_limeLevel.png" />
 			<set path="fieldGround.densityMaps.plowLevel#filename" value="data/maps/mapDefault/data/infoLayer_plowLevel.png" />

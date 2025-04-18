@@ -1230,7 +1230,7 @@
             <Option value="1" name="Blocked"/>
           </Group>
         </InfoLayer>
-        <DetailLayer name="terrainDetail" densityMapId="622" numDensityMapChannels="11" compressionChannels="11" cellSize="8" objectMask="0xff00ff" decalLayer="1" viewDistance="75" blendOutDistance="5" densityMapShaderNames="terrainDetailMap" combinedValuesChannels="0 4 0;4 3 0;7 3 0;10 1 0" channelOverlayTypes="groundDetail;;spray">
+        <DetailLayer name="terrainDetail" densityMapId="622" numDensityMapChannels="14" compressionChannels="14" cellSize="8" objectMask="0xff00ff" decalLayer="1" viewDistance="75" blendOutDistance="5" densityMapShaderNames="terrainDetailMap" combinedValuesChannels="0 4 0;4 6 0;10 3 0;13 1 0" channelOverlayTypes="groundDetail;;spray">
           <Group name="Ground Type" firstChannel="0" numChannels="4" >
             <Option value="1" name="Stubble Tillage"/>
             <Option value="2" name="Cultivated"/>
@@ -1248,16 +1248,72 @@
             <Option value="14" name="Grass"/>
             <Option value="15" name="Grass (Cut)"/>
           </Group>
-          <Group name="Ground Angle" firstChannel="4" numChannels="3" >
-            <Option value="1" name="-22.5 Degrees"/>
-            <Option value="2" name="-45 Degrees"/>
-            <Option value="3" name="-67.5 Degrees"/>
-            <Option value="4" name="-90 Degrees"/>
-            <Option value="5" name="-112.5 Degrees"/>
-            <Option value="6" name="-135 Degrees"/>
-            <Option value="7" name="-157.5 Degrees"/>
+          <Group name="Ground Angle" firstChannel="4" numChannels="6" >
+            <Option value="1" name="-2.8125 Degrees"/>
+            <Option value="2" name="-5.625 Degrees"/>
+            <Option value="3" name="-8.4375 Degrees"/>
+            <Option value="4" name="-11.25 Degrees"/>
+            <Option value="5" name="-14.0625 Degrees"/>
+            <Option value="6" name="-16.875 Degrees"/>
+            <Option value="7" name="-19.6875 Degrees"/>
+            <Option value="8" name="-22.5 Degrees"/>
+            <Option value="9" name="-25.3125 Degrees"/>
+            <Option value="10" name="-28.125 Degrees"/>
+            <Option value="11" name="-30.9375 Degrees"/>
+            <Option value="12" name="-33.75 Degrees"/>
+            <Option value="13" name="-36.5625 Degrees"/>
+            <Option value="14" name="-39.375 Degrees"/>
+            <Option value="15" name="-42.1875 Degrees"/>
+            <Option value="16" name="-45 Degrees"/>
+            <Option value="17" name="-47.8125 Degrees"/>
+            <Option value="18" name="-50.625 Degrees"/>
+            <Option value="19" name="-53.4375 Degrees"/>
+            <Option value="20" name="-56.25 Degrees"/>
+            <Option value="21" name="-59.0625 Degrees"/>
+            <Option value="22" name="-61.875 Degrees"/>
+            <Option value="23" name="-64.6875 Degrees"/>
+            <Option value="24" name="-67.5 Degrees"/>
+            <Option value="25" name="-70.3125 Degrees"/>
+            <Option value="26" name="-73.125 Degrees"/>
+            <Option value="27" name="-75.9375 Degrees"/>
+            <Option value="28" name="-78.75 Degrees"/>
+            <Option value="29" name="-81.5625 Degrees"/>
+            <Option value="30" name="-84.375 Degrees"/>
+            <Option value="31" name="-87.1875 Degrees"/>
+            <Option value="32" name="-90 Degrees"/>
+            <Option value="33" name="-92.8125 Degrees"/>
+            <Option value="34" name="-95.625 Degrees"/>
+            <Option value="35" name="-98.4375 Degrees"/>
+            <Option value="36" name="-101.25 Degrees"/>
+            <Option value="37" name="-104.0625 Degrees"/>
+            <Option value="38" name="-106.875 Degrees"/>
+            <Option value="39" name="-109.6875 Degrees"/>
+            <Option value="40" name="-112.5 Degrees"/>
+            <Option value="41" name="-115.3125 Degrees"/>
+            <Option value="42" name="-118.125 Degrees"/>
+            <Option value="43" name="-120.9375 Degrees"/>
+            <Option value="44" name="-123.75 Degrees"/>
+            <Option value="45" name="-126.5625 Degrees"/>
+            <Option value="46" name="-129.375 Degrees"/>
+            <Option value="47" name="-132.1875 Degrees"/>
+            <Option value="48" name="-135 Degrees"/>
+            <Option value="49" name="-137.8125 Degrees"/>
+            <Option value="50" name="-140.625 Degrees"/>
+            <Option value="51" name="-143.4375 Degrees"/>
+            <Option value="52" name="-146.25 Degrees"/>
+            <Option value="53" name="-149.0625 Degrees"/>
+            <Option value="54" name="-151.875 Degrees"/>
+            <Option value="55" name="-154.6875 Degrees"/>
+            <Option value="56" name="-157.5 Degrees"/>
+            <Option value="57" name="-160.3125 Degrees"/>
+            <Option value="58" name="-163.125 Degrees"/>
+            <Option value="59" name="-165.9375 Degrees"/>
+            <Option value="60" name="-168.75 Degrees"/>
+            <Option value="61" name="-171.5625 Degrees"/>
+            <Option value="62" name="-174.375 Degrees"/>
+            <Option value="63" name="-177.1875 Degrees"/>
           </Group>
-          <Group name="Spray Type" firstChannel="7" numChannels="3" >
+          <Group name="Spray Type" firstChannel="10" numChannels="3" >
             <Option value="1" name="Fertilizer"/>
             <Option value="2" name="Manure"/>
             <Option value="3" name="Liquid Manure"/>
@@ -1265,7 +1321,7 @@
             <Option value="5" name="Straw Chopper"/>
             <Option value="6" name="Maize Chopper"/>
           </Group>
-          <Group name="Water" firstChannel="10" numChannels="1" >
+          <Group name="Water" firstChannel="13" numChannels="1" >
             <Option value="1" name="Watered"/>
           </Group>
           <DistanceTexture match="1;*;0" fileId="623"/>
