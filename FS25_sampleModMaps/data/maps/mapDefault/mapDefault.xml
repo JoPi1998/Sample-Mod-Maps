@@ -98,4 +98,7 @@
 		<groundTypeMapping type="forestGround" title="$l10n_groundType_forestGround" layer="FOREST_GRASS" />
 		<groundTypeMapping type="rock" title="$l10n_groundType_rock" layer="ROCK" />
 	</groundTypeMappings>
+	<precisionFarming>
+		<soilMap filename="data/maps/mapDefault/data/infoLayer_soilMap.grle" />
+	</precisionFarming>
 </map>
