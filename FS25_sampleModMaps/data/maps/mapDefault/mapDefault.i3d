@@ -471,22 +471,22 @@
     <File fileId="487" filename="$data/maps/textures/terrain/ground/groundType_plowed02_displacement.png"/>
     <File fileId="486" filename="$data/maps/textures/terrain/ground/groundType_plowed02_height.png"/>
     <File fileId="485" filename="$data/maps/textures/terrain/ground/groundType_plowed02_normal.png"/>
-    <File fileId="488" filename="$data/maps/textures/terrain/ground/groundType_ridge01_diffuse.png"/>
-    <File fileId="491" filename="$data/maps/textures/terrain/ground/groundType_ridge01_displacement.png"/>
-    <File fileId="490" filename="$data/maps/textures/terrain/ground/groundType_ridge01_height.png"/>
-    <File fileId="489" filename="$data/maps/textures/terrain/ground/groundType_ridge01_normal.png"/>
-    <File fileId="492" filename="$data/maps/textures/terrain/ground/groundType_ridge02_diffuse.png"/>
-    <File fileId="495" filename="$data/maps/textures/terrain/ground/groundType_ridge02_displacement.png"/>
-    <File fileId="494" filename="$data/maps/textures/terrain/ground/groundType_ridge02_height.png"/>
-    <File fileId="493" filename="$data/maps/textures/terrain/ground/groundType_ridge02_normal.png"/>
-    <File fileId="496" filename="$data/maps/textures/terrain/ground/groundType_ridgeSown01_diffuse.png"/>
-    <File fileId="499" filename="$data/maps/textures/terrain/ground/groundType_ridgeSown01_displacement.png"/>
-    <File fileId="498" filename="$data/maps/textures/terrain/ground/groundType_ridgeSown01_height.png"/>
-    <File fileId="497" filename="$data/maps/textures/terrain/ground/groundType_ridgeSown01_normal.png"/>
-    <File fileId="500" filename="$data/maps/textures/terrain/ground/groundType_ridgeSown02_diffuse.png"/>
-    <File fileId="503" filename="$data/maps/textures/terrain/ground/groundType_ridgeSown02_displacement.png"/>
-    <File fileId="502" filename="$data/maps/textures/terrain/ground/groundType_ridgeSown02_height.png"/>
-    <File fileId="501" filename="$data/maps/textures/terrain/ground/groundType_ridgeSown02_normal.png"/>
+    <File fileId="488" filename="$data/maps/textures/terrain/ground/groundType_ridge03_diffuse.png"/>
+    <File fileId="491" filename="$data/maps/textures/terrain/ground/groundType_ridge03_displacement.png"/>
+    <File fileId="490" filename="$data/maps/textures/terrain/ground/groundType_ridge03_height.png"/>
+    <File fileId="489" filename="$data/maps/textures/terrain/ground/groundType_ridge03_normal.png"/>
+    <File fileId="492" filename="$data/maps/textures/terrain/ground/groundType_ridge04_diffuse.png"/>
+    <File fileId="495" filename="$data/maps/textures/terrain/ground/groundType_ridge04_displacement.png"/>
+    <File fileId="494" filename="$data/maps/textures/terrain/ground/groundType_ridge04_height.png"/>
+    <File fileId="493" filename="$data/maps/textures/terrain/ground/groundType_ridge04_normal.png"/>
+    <File fileId="496" filename="$data/maps/textures/terrain/ground/groundType_ridgeSown03_diffuse.png"/>
+    <File fileId="499" filename="$data/maps/textures/terrain/ground/groundType_ridgeSown03_displacement.png"/>
+    <File fileId="498" filename="$data/maps/textures/terrain/ground/groundType_ridgeSown03_height.png"/>
+    <File fileId="497" filename="$data/maps/textures/terrain/ground/groundType_ridgeSown03_normal.png"/>
+    <File fileId="500" filename="$data/maps/textures/terrain/ground/groundType_ridgeSown04_diffuse.png"/>
+    <File fileId="503" filename="$data/maps/textures/terrain/ground/groundType_ridgeSown04_displacement.png"/>
+    <File fileId="502" filename="$data/maps/textures/terrain/ground/groundType_ridgeSown04_height.png"/>
+    <File fileId="501" filename="$data/maps/textures/terrain/ground/groundType_ridgeSown04_normal.png"/>
     <File fileId="504" filename="$data/maps/textures/terrain/ground/groundType_rollerLines01_diffuse.png"/>
     <File fileId="507" filename="$data/maps/textures/terrain/ground/groundType_rollerLines01_displacement.png"/>
     <File fileId="506" filename="$data/maps/textures/terrain/ground/groundType_rollerLines01_height.png"/>
@@ -788,10 +788,10 @@
         <OverlayLayer type="groundDetail" name="planted02" detailMapId="476" normalMapId="477" heightMapId="478" displacementMapId="479" unitSize="2.28571" displacementMaxHeight="0.25" blendContrast="0.5" noiseScale="0.5" noiseSharpness="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1" firmness="0.91" viscosity="0.87" firmnessWet="0.81"/>
         <OverlayLayer type="groundDetail" name="plowed01" detailMapId="480" normalMapId="481" heightMapId="482" displacementMapId="483" unitSize="2.65" displacementMaxHeight="0.25" blendContrast="0.5" noiseScale="0.5" noiseSharpness="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1" firmness="0.79" viscosity="0.79" firmnessWet="0.52"/>
         <OverlayLayer type="groundDetail" name="plowed02" detailMapId="484" normalMapId="485" heightMapId="486" displacementMapId="487" unitSize="2.65" displacementMaxHeight="0.25" blendContrast="0.5" noiseScale="0.5" noiseSharpness="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1" firmness="0.79" viscosity="0.79" firmnessWet="0.52"/>
-        <OverlayLayer type="groundDetail" name="ridge01" detailMapId="488" normalMapId="489" heightMapId="490" displacementMapId="491" unitSize="6.0952" displacementMaxHeight="0.25" blendContrast="0.5" noiseScale="0.5" noiseSharpness="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1" firmness="0.79" viscosity="0.79" firmnessWet="0.52"/>
-        <OverlayLayer type="groundDetail" name="ridge02" detailMapId="492" normalMapId="493" heightMapId="494" displacementMapId="495" unitSize="6.0952" displacementMaxHeight="0.25" blendContrast="0.5" noiseScale="0.5" noiseSharpness="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1" firmness="0.79" viscosity="0.79" firmnessWet="0.52"/>
-        <OverlayLayer type="groundDetail" name="ridgeSown01" detailMapId="496" normalMapId="497" heightMapId="498" displacementMapId="499" unitSize="6.0952" displacementMaxHeight="0.25" blendContrast="0.5" noiseScale="0.5" noiseSharpness="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1" firmness="0.79" viscosity="0.79" firmnessWet="0.52"/>
-        <OverlayLayer type="groundDetail" name="ridgeSown02" detailMapId="500" normalMapId="501" heightMapId="502" displacementMapId="503" unitSize="6.0952" displacementMaxHeight="0.25" blendContrast="0.5" noiseScale="0.5" noiseSharpness="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1" firmness="0.79" viscosity="0.79" firmnessWet="0.52"/>
+        <OverlayLayer type="groundDetail" name="ridge01" detailMapId="488" normalMapId="489" heightMapId="490" displacementMapId="491" unitSize="3.0476" displacementMaxHeight="0.25" blendContrast="0.5" noiseScale="0.5" noiseSharpness="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1" firmness="0.79" viscosity="0.79" firmnessWet="0.52"/>
+        <OverlayLayer type="groundDetail" name="ridge02" detailMapId="492" normalMapId="493" heightMapId="494" displacementMapId="495" unitSize="3.0476" displacementMaxHeight="0.25" blendContrast="0.5" noiseScale="0.5" noiseSharpness="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1" firmness="0.79" viscosity="0.79" firmnessWet="0.52"/>
+        <OverlayLayer type="groundDetail" name="ridgeSown01" detailMapId="496" normalMapId="497" heightMapId="498" displacementMapId="499" unitSize="3.0476" displacementMaxHeight="0.25" blendContrast="0.5" noiseScale="0.5" noiseSharpness="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1" firmness="0.79" viscosity="0.79" firmnessWet="0.52"/>
+        <OverlayLayer type="groundDetail" name="ridgeSown02" detailMapId="500" normalMapId="501" heightMapId="502" displacementMapId="503" unitSize="3.0476" displacementMaxHeight="0.25" blendContrast="0.5" noiseScale="0.5" noiseSharpness="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1" firmness="0.79" viscosity="0.79" firmnessWet="0.52"/>
         <OverlayLayer type="groundDetail" name="rollerLines01" detailMapId="504" normalMapId="505" heightMapId="506" displacementMapId="507" unitSize="6.0952" displacementMaxHeight="0.25" blendContrast="0.5" noiseScale="0.5" noiseSharpness="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1" firmness="0.94" viscosity="0.92" firmnessWet="0.84"/>
         <OverlayLayer type="groundDetail" name="rollerLines02" detailMapId="508" normalMapId="509" heightMapId="510" displacementMapId="511" unitSize="6.0952" displacementMaxHeight="0.25" blendContrast="0.5" noiseScale="0.5" noiseSharpness="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1" firmness="0.94" viscosity="0.92" firmnessWet="0.84"/>
         <OverlayLayer type="groundDetail" name="seedbed01" detailMapId="512" normalMapId="513" heightMapId="514" displacementMapId="515" unitSize="6.0952" displacementMaxHeight="0.25" blendContrast="0.5" noiseScale="0.5" noiseSharpness="0.5" porosityAtZeroRoughness="0.9" porosityAtFullRoughness="1" firmness="0.86" viscosity="0.87" firmnessWet="0.71"/>
@@ -1352,7 +1352,7 @@
           <DistanceTexture match="14;*;1" fileId="642"/>
         </DetailLayer>
         <DetailLayer name="terrainDetailHeight" densityMapId="643" numDensityMapChannels="12" compressionChannels="6" cellSize="8" objectMask="0xff00ff" decalLayer="2" materialId="5" viewDistance="75" blendOutDistance="5" densityMapShaderNames="terrainFillMap" combinedValuesChannels="0 6 0" heightFirstChannel="6" heightNumChannels="6" maxHeight="4"/>
-        <DisplacementLayer name="terrainDisplacement" size="16384" tileSize="16" numChannels="6" cellSize="8" viewDistance="25" blendOutDistance="5" maxHeight="0.2" densityMapShaderNames="terrainDisplacementMap"/>
+        <DisplacementLayer name="terrainDisplacement" size="16384" tileSize="16" numChannels="6" cellSize="2" viewDistance="25" blendOutDistance="5" maxHeight="0.2" densityMapShaderNames="terrainDisplacementMap"/>
         <FoliageSystem cellSize="8" graphicsCellScale="2" objectMask="16711935" decalLayer="0">
           <FoliageMultiLayer densityMapId="647" numChannels="8" numTypeIndexChannels="4" compressionChannels="4">
             <FoliageType name="decoBush" foliageXmlId="587"/>
