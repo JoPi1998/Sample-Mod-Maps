@@ -16,7 +16,7 @@
 	<storeItems filename="data/maps/mapDefault/config/storeItems.xml" />
 	<licensePlates filename="data/maps/mapDefault/licensePlates/licensePlatesUS.xml" />
 	<gameplayHints filename="$dataS/gameplayHints.xml" />
-	<helpline filename="$dataS/helpLine.xml" />
+	<helpline filename="$dataS/helpLine.xml" additionalFilename="dataS/helpLine.xml" />
 	<sounds filename="data/maps/mapDefault/sounds/sounds.xml" />
 	<environment filename="data/maps/mapDefault/config/environment.xml" />
 	<competitiveMultiplayer filename="data/maps/mapDefault/config/competitiveMultiplayer.xml" />
